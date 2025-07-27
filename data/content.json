@@ -1,0 +1,241 @@
+{
+  "navigation": {
+    "brand": "SYNERGY",
+    "items": [
+      { "id": "inicio", "label": "Inicio" },
+      { "id": "nosotros", "label": "Nosotros" },
+      { "id": "servicios", "label": "Servicios" },
+      { "id": "planes", "label": "Planes" },
+      { "id": "equipo", "label": "Equipo" },
+      { "id": "contacto", "label": "Contacto" }
+    ],
+    "cta": {
+      "text": "HAZ TU CLASE DE PRUEBA",
+      "url": "https://l.instagram.com/?u=https%3A%2F%2Fboxmagic.cl%2Fsport_page%2FSynergy&e=AT0AbOrqltHJS6kTmH5hVVyhH1cZ0UeyHyStb5-H58c6jKvv6WDOED8zwzpz751DE8yBya4gaqn3P11dRaFc8cj6LNzBfTCOyOlJDlygqP6rJ1FNYDvsYGZx7qpFQhiZeWZuii_jYPUs"
+    }
+  },
+  "hero": {
+    "subtitle": "Transformación Integral",
+    "title": [
+      "BIENESTAR",
+      "INTEGRADO,",
+      "MOVIMIENTO",
+      "CONSCIENTE,",
+      "EQUILIBRIO",
+      "INTEGRAL"
+    ],
+    "cta": {
+      "text": "DESCUBRE MÁS",
+      "action": "servicios"
+    },
+    "image": "/images/hero.JPG"
+  },
+  "about": {
+    "title": "SYNERGY",
+    "subtitle": "UN ESPACIO INTERDISCIPLINARIO",
+    "description": [
+      "Articulamos distintas herramientas integrativas, físicas, terapéuticas y conscientes. Es un espacio de encuentro en comunidad. Un lugar de bienestar, transformación y consciencia. Nuestro objetivo es elevar tu calidad de vida.",
+      "A través de clases regulares, talleres, experiencias y terapias buscamos potenciar tu bienestar físico, emocional y energético."
+    ],
+    "closing": "Elegimos cada detalle para que vivas una experiencia consciente, armoniosa y sensible.",
+    "cta": {
+      "text": "CONOCE NUESTROS PLANES",
+      "action": "planes"
+    }
+  },
+  "services": {
+    "title": "NUESTROS SERVICIOS",
+    "items": [
+      {
+        "name": "Pilates Reformer - Suelo",
+        "description": "Fortalece tu core y mejora tu postura con nuestras clases de Pilates en reformer y suelo. Ideal para todos los niveles, desde principiantes hasta avanzados.",
+        "image": "/images/pilates_reformer.png"
+      },
+      {
+        "name": "Yoga Vinyasa",
+        "description": "Una práctica que se caracteriza por su fluidez, y la combinación de asanas (posturas), pranayama (respiración) y meditación. Trabajamos la consciencia plena, la conexión cuerpo-mente y la expansión del bienestar físico y emocional.",
+        "image": "/placeholder.svg?height=300&width=400"
+      },
+      {
+        "name": "Barre",
+        "description": "Una clase de fitness. Barre se encuentra influenciada por el ballet, yoga y pilates. Fortalecemos el cuerpo y la mente desde la elongación y resistencia muscular. Ideal para esculpir y tonificar.",
+        "image": "/images/barre.JPG"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "VALORES Y PLANES",
+    "subtitle": "Nuestra prioridad es tener un plan que se ajuste a tu estilo de vida.",
+    "sections": [
+      {
+        "title": "Pilates Reformer",
+        "monthly": {
+          "title": "MENSUAL",
+          "plans": [
+            "Plan Body - 4 clases / $55.000",
+            "Plan Mind - 8 clases / $96.000",
+            "Plan Soul - 12 o más clases / $155.000"
+          ]
+        },
+        "quarterly": {
+          "title": "TRIMESTRAL",
+          "plans": [
+            "Plan Body - 4 clases / $157.000",
+            "Plan Mind - 8 clases / $275.000",
+            "Plan Soul - 12 o más clases / $445.000"
+          ]
+        }
+      },
+      {
+        "title": "Pilates Suelo",
+        "monthly": {
+          "title": "MENSUAL",
+          "plans": [
+            "Plan Body - 4 clases / $43.000",
+            "Plan Mind - 8 clases / $75.000"
+          ]
+        },
+        "quarterly": {
+          "title": "TRIMESTRAL",
+          "plans": [
+            "Plan Body - 4 clases / $116.000",
+            "Plan Mind - 8 clases / $202.000"
+          ]
+        }
+      },
+      {
+        "title": "Yoga",
+        "monthly": {
+          "title": "MENSUAL",
+          "plans": [
+            "Plan Body - 4 clases / $38.000",
+            "Plan Mind - 8 clases / $68.000",
+            "Plan Soul - 12 clases / $90.000"
+          ]
+        },
+        "quarterly": {
+          "title": "TRIMESTRAL",
+          "plans": [
+            "Plan Body - 4 clases / $102.000",
+            "Plan Mind - 8 clases / $183.000",
+            "Plan Soul - 12 clases / $243.000"
+          ]
+        }
+      },
+      {
+        "title": "Barre",
+        "monthly": {
+          "title": "MENSUAL",
+          "plans": [
+            "Plan Body - 4 clases / $45.000"
+          ]
+        }
+      }
+    ],
+    "combinedPlans": {
+      "title": "PLANES COMBINADOS",
+      "features": [
+        "• Combina cualquier disciplina en un solo plan",
+        "• Flexibilidad total para adaptar tu práctica",
+        "• Ideal para explorar diferentes modalidades"
+      ]
+    },
+    "unlimited": {
+      "title": "ACCESOS ILIMITADO A TU BIENESTAR",
+      "subtitle": "SYNERGY MEMBER",
+      "description": "Un pase libre para explorar y disfrutar todas nuestras disciplinas — Pilates Reformer y Suelo, Yoga y Barre — sin ataduras ni límites. Diseñado para que vivas el bienestar a tu ritmo, eligiendo cada día lo que tu cuerpo y mente necesitan.",
+      "plans": [
+        {
+          "name": "Body Plus – 4 clases: $66.000",
+          "description": "Ideal para quienes quieren comenzar a conectar cuerpo y mente a su ritmo. Una clase por semana para incorporar el bienestar en tu rutina."
+        },
+        {
+          "name": "Mind Plus – 8 clases $115.000",
+          "description": "La opción perfecta para profundizar tu práctica. Dos clases por semana que te ayudarán a mantener el equilibrio, la energía y el compromiso contigo misma."
+        },
+        {
+          "name": "Soul Plus – 12+ clases $185.000",
+          "description": "Nuestro plan más completo. Diseñado para quienes hacen del movimiento una prioridad y buscan una transformación integral y constante."
+        }
+      ],
+      "cta": {
+        "text": "CONSULTA TU PLAN IDEAL",
+        "action": "contacto"
+      },
+      "contractCta": {
+        "text": "CONTRATA TU PLAN",
+        "url": "https://l.instagram.com/?u=https%3A%2F%2Fboxmagic.cl%2Fsport_page%2FSynergy&e=AT1vQQ9pYfggbBA6y-zJwADPsvw_kNJRGb1a2j5zVpNom-JSIlN0FkcaSL7Wbl5paLF1eCDvGTBqyDhB5jtDNBiC0wHpDxgetaUfCpJb-EcpM8MSL1X_CJjq1lpyRkpRTNAF_Wne2R6m"
+      }
+    },
+    "images": [
+      "/images/valore_y_planes.png",
+      "/images/valores_y_planes_2.png"
+    ]
+  },
+  "team": {
+    "title": "NUESTRO EQUIPO",
+    "members": [
+      {
+        "name": "Florencia Aránguiz",
+        "role": "Nutricionista",
+        "image": "/images/florencia_aranguiz.JPG"
+      },
+      {
+        "name": "Florencia Cañas",
+        "role": "Asesorías de bienestar",
+        "image": "/images/flo.JPG"
+      },
+      {
+        "name": "María Francisca Merino",
+        "role": "Terapias complementarias",
+        "image": "/images/maria.png"
+      },
+      {
+        "name": "Martita Schieb",
+        "role": "Masoterapia",
+        "image": "/placeholder.svg?height=400&width=300"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "FEEDBACK DE NUESTRA COMUNIDAD",
+    "items": [
+      {
+        "text": "Muy bien explicados los ejercicios, muy agradable la instructora y lugar acogedor.",
+        "author": "CLASSPASS"
+      },
+      {
+        "text": "Fue una clase muy completa, muy desafiante y también te permite conectarte y hacer una pausa. Es exigente y termina con una meditación.",
+        "author": "Josefina"
+      },
+      {
+        "text": "Buenísima clase, la profesora un amor 🤍. \n Muy buen ambiente y el lugar hermoso.",
+        "author": "CLASSPASS"
+      }
+    ]
+  },
+  "contact": {
+    "title": "CÓMO ENCONTRARNOS",
+    "address": {
+      "street": "Agustín del castillo 2960",
+      "city": "Vitacura, Santiago"
+    },
+    "phone": "+56 9 7736 3399",
+    "schedule": {
+      "title": "HORARIO",
+      "weekdays": {
+        "days": "Lunes a Viernes",
+        "hours": "7:00 - 21:00"
+      }
+    },
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.8958234567843!2d-70.55445568481845!3d-33.39234808078619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a3d4c4d4d1%3A0x4d4d4d4d4d4d4d4d!2sAgust%C3%ADn%20del%20Castillo%202960%2C%20Vitacura%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1635789012345!5m2!1ses!2scl&q=Agust%C3%ADn+del+Castillo+2960,+Vitacura,+Santiago"
+  },
+  "footer": {
+    "brand": "SYNERGY",
+    "tagline": "Transformación integral a través del movimiento consciente",
+    "social": {
+      "instagram": "https://www.instagram.com/synergy.cl/"
+    },
+    "copyright": "© 2024 Synergy Pilates Studio. Todos los derechos reservados."
+  }
+} 
