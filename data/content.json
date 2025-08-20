@@ -20,9 +20,9 @@
       "BIENESTAR",
       "INTEGRADO,",
       "MOVIMIENTO",
-      "CONSCIENTE,",
-      "EQUILIBRIO",
-      "INTEGRAL"
+      "CONSCIENTE",
+      "Y EN",
+      "EQUILIBRIO"
     ],
     "cta": {
       "text": "DESCUBRE MÁS",
@@ -34,10 +34,9 @@
     "title": "SYNERGY",
     "subtitle": "UN ESPACIO INTERDISCIPLINARIO",
     "description": [
-      "Articulamos distintas herramientas integrativas, físicas, terapéuticas y conscientes. Es un espacio de encuentro en comunidad. Un lugar de bienestar, transformación y consciencia. Nuestro objetivo es elevar tu calidad de vida.",
-      "A través de clases regulares, talleres, experiencias y terapias buscamos potenciar tu bienestar físico, emocional y energético."
+      "Articulamos distintas herramientas integrativas, físicas y terapéuticas. Nuestra Synergy House es un espacio de encuentro en comunidad, un lugar de bienestar, transformación y consciencia. Nuestro objetivo es elevar tu calidad de vida a través de clases regulares, talleres, experiencias y terapias. Buscamos potenciar tu bienestar físico, emocional y energético, elegiendo cada detalle para que vivas una experiencia consciente, armoniosa y sensible."
     ],
-    "closing": "Elegimos cada detalle para que vivas una experiencia consciente, armoniosa y sensible.",
+    "closing": "",
     "cta": {
       "text": "CONOCE NUESTROS PLANES",
       "action": "planes"
@@ -47,24 +46,34 @@
     "title": "NUESTROS SERVICIOS",
     "items": [
       {
-        "name": "Pilates Reformer - Suelo",
-        "description": "Fortalece tu core y mejora tu postura con nuestras clases de Pilates en reformer y suelo. Ideal para todos los niveles, desde principiantes hasta avanzados.",
-        "image": "/images/pilates_reformer.png"
+        "name": "Pilates Reformer",
+        "description": "Fortalece, alinea y estira tu cuerpo con nuestras clases de Pilates Reformer. Trabajamos fuerza, control y flexibilidad con movimientos precisos y conscientes. Ideal para todos los niveles, desde quienes recién comienzan hasta quienes buscan perfeccionar su práctica.",
+        "image": "/images/PILATES_REFORMER.jpg"
       },
       {
-        "name": "Yoga Vinyasa",
-        "description": "Una práctica que se caracteriza por su fluidez, y la combinación de asanas (posturas), pranayama (respiración) y meditación. Trabajamos la consciencia plena, la conexión cuerpo-mente y la expansión del bienestar físico y emocional.",
-        "image": "/placeholder.svg?height=300&width=400"
+        "name": "Power Pilates",
+        "description": "Activa tu cuerpo y tu energía con nuestras clases de Power Pilates. Una versión más dinámica del Pilates suelo, enfocada en fuerza, resistencia y control. Ideal para todos los niveles, especialmente si buscas un entrenamiento desafiante y consciente. Proximamente en octubre",
+        "image": "/images/POWERPILATES.jpg"
+      },
+      {
+        "name": "FitBallet",
+        "description": "Descubre FitBallet, una disciplina creada en Synergy que fusiona arte y fuerza. Combinamos la técnica del ballet clásico, ejercicios de entrenamiento funcional y el método PBT (Progressing Ballet Technique) para trabajar postura, control y musculatura profunda. Ideal para quienes buscan elegancia, potencia y conexión corporal en una sola clase.",
+        "image": "/images/fitballet.png"
+      },
+      {
+        "name": "Vinyasa Yoga",
+        "description": "Conecta cuerpo, mente y respiración con nuestras clases de Vinyasa Yoga. Una práctica fluida y consciente donde cada movimiento sigue el ritmo de tu respiración. Ideal para todos los niveles, especialmente si buscas liberar tensiones, fortalecer tu cuerpo y encontrar calma desde el movimiento.",
+        "image": "/images/YOGA.jpg"
       },
       {
         "name": "Barre",
-        "description": "Una clase de fitness. Barre se encuentra influenciada por el ballet, yoga y pilates. Fortalecemos el cuerpo y la mente desde la elongación y resistencia muscular. Ideal para esculpir y tonificar.",
-        "image": "/images/barre.JPG"
+        "description": "Tonifica, alarga y fortalece tu cuerpo con nuestras clases de Barre. Una fusión de ballet, Pilates y entrenamiento funcional que trabaja fuerza, equilibrio y postura con movimientos precisos y controlados. Ideal para todos los niveles, especialmente si buscas un entrenamiento desafiante, elegante y consciente.",
+        "image": "/images/BARRE.JPG"
       }
     ]
   },
   "pricing": {
-    "title": "VALORES Y PLANES",
+    "title": "VALORES",
     "subtitle": "Nuestra prioridad es tener un plan que se ajuste a tu estilo de vida.",
     "sections": [
       {
@@ -74,7 +83,7 @@
           "plans": [
             "Plan Body - 4 clases / $55.000",
             "Plan Mind - 8 clases / $96.000",
-            "Plan Soul - 12 o más clases / $155.000"
+            "Plan Soul - 12 o mas clases / $155.000"
           ]
         },
         "quarterly": {
@@ -82,43 +91,65 @@
           "plans": [
             "Plan Body - 4 clases / $157.000",
             "Plan Mind - 8 clases / $275.000",
-            "Plan Soul - 12 o más clases / $445.000"
+            "Plan Soul - 12 o mas clases / $445.000"
           ]
         }
       },
       {
-        "title": "Pilates Suelo",
+        "title": "Power Pilates",
         "monthly": {
           "title": "MENSUAL",
           "plans": [
-            "Plan Body - 4 clases / $43.000",
-            "Plan Mind - 8 clases / $75.000"
+            "Plan Body - 4 clases / $45.000",
+            "Plan Mind - 8 clases / $80.000",
+            "Plan Soul - 12 clases / $130.000"
           ]
         },
         "quarterly": {
           "title": "TRIMESTRAL",
           "plans": [
-            "Plan Body - 4 clases / $116.000",
-            "Plan Mind - 8 clases / $202.000"
+            "Plan Body - 4 clases / $122.000",
+            "Plan Mind - 8 clases / $216.000",
+            "Plan Soul - 12 clases / $351.000"
           ]
         }
       },
       {
-        "title": "Yoga",
+        "title": "FitBallet",
+        "status": "proximamente",
         "monthly": {
           "title": "MENSUAL",
           "plans": [
-            "Plan Body - 4 clases / $38.000",
-            "Plan Mind - 8 clases / $68.000",
-            "Plan Soul - 12 clases / $90.000"
+            "Plan Body - 4 clases / $48.000",
+            "Plan Mind - 8 clases / $72.000",
+            "Plan Soul - 12 o mas clases / $105.000"
           ]
         },
         "quarterly": {
           "title": "TRIMESTRAL",
           "plans": [
-            "Plan Body - 4 clases / $102.000",
-            "Plan Mind - 8 clases / $183.000",
-            "Plan Soul - 12 clases / $243.000"
+            "Plan Body - 4 clases / $130.000",
+            "Plan Mind - 8 clases / $195.000",
+            "Plan Soul - 12 o mas clases / $284.000"
+          ]
+        }
+      },
+      {
+        "title": "Vinyasa Yoga",
+        "monthly": {
+          "title": "MENSUAL",
+          "plans": [
+            "Plan Body - 4 clases / $45.000",
+            "Plan Mind - 8 clases / $80.000",
+            "Plan Soul - 12 clases / $130.000"
+          ]
+        },
+        "quarterly": {
+          "title": "TRIMESTRAL",
+          "plans": [
+            "Plan Body - 4 clases / $122.000",
+            "Plan Mind - 8 clases / $216.000",
+            "Plan Soul - 12 clases / $351.000"
           ]
         }
       },
@@ -126,38 +157,52 @@
         "title": "Barre",
         "monthly": {
           "title": "MENSUAL",
-          "plans": [
-            "Plan Body - 4 clases / $45.000"
-          ]
+          "plans": ["Plan Body - 4 clases / $45.000"]
+        },
+        "quarterly": {
+          "title": "TRIMESTRAL",
+          "plans": ["Plan Body - 4 clases / $122.000"]
         }
       }
     ],
-    "combinedPlans": {
-      "title": "PLANES COMBINADOS",
-      "features": [
-        "• Combina cualquier disciplina en un solo plan",
-        "• Flexibilidad total para adaptar tu práctica",
-        "• Ideal para explorar diferentes modalidades"
-      ]
-    },
     "unlimited": {
-      "title": "ACCESOS ILIMITADO A TU BIENESTAR",
+      "title": "MEMBRESIA",
       "subtitle": "SYNERGY MEMBER",
-      "description": "Un pase libre para explorar y disfrutar todas nuestras disciplinas — Pilates Reformer y Suelo, Yoga y Barre — sin ataduras ni límites. Diseñado para que vivas el bienestar a tu ritmo, eligiendo cada día lo que tu cuerpo y mente necesitan.",
-      "plans": [
-        {
-          "name": "Body Plus – 4 clases: $66.000",
-          "description": "Ideal para quienes quieren comenzar a conectar cuerpo y mente a su ritmo. Una clase por semana para incorporar el bienestar en tu rutina."
-        },
-        {
-          "name": "Mind Plus – 8 clases $115.000",
-          "description": "La opción perfecta para profundizar tu práctica. Dos clases por semana que te ayudarán a mantener el equilibrio, la energía y el compromiso contigo misma."
-        },
-        {
-          "name": "Soul Plus – 12+ clases $185.000",
-          "description": "Nuestro plan más completo. Diseñado para quienes hacen del movimiento una prioridad y buscan una transformación integral y constante."
-        }
-      ],
+      "description": "Un pase libre para explorar y disfrutar todas nuestras disciplinas — Pilates Reformer, Power Pilates, FitBallet, Vinyasa Yoga y Barre — sin ataduras ni límites. Diseñado para que vivas el bienestar a tu ritmo, eligiendo cada día lo que tu cuerpo y mente necesitan.",
+      "monthly": {
+        "title": "SYNERGY MEMBER MENSUAL",
+        "plans": [
+          {
+            "name": "Body Plus – 4 clases / $66.000",
+            "description": "Ideal para quienes quieren comenzar a conectar cuerpo y mente a su ritmo. Una clase por semana para incorporar el bienestar en tu rutina."
+          },
+          {
+            "name": "Mind Plus – 8 clases / $116.000",
+            "description": "La opción perfecta para profundizar tu práctica. Dos clases por semana que te ayudarán a mantener el equilibrio, la energía y el compromiso contigo misma."
+          },
+          {
+            "name": "Soul Plus – 12+ clases / $186.000",
+            "description": "Nuestro plan más completo. Diseñado para quienes hacen del movimiento una prioridad y buscan una transformación integral y constante."
+          }
+        ]
+      },
+      "quarterly": {
+        "title": "SYNERGY MEMBER TRIMESTRAL",
+        "plans": [
+          {
+            "name": "Body Flow – 4 clases / $178.000",
+            "description": "Ideal para quienes quieren comenzar a conectar cuerpo y mente a su ritmo. Una clase por semana para incorporar el bienestar en tu rutina."
+          },
+          {
+            "name": "Mind Flow – 8 clases / $313.000",
+            "description": "La opción perfecta para profundizar tu práctica. Dos clases por semana que te ayudarán a mantener el equilibrio, la energía y el compromiso contigo misma."
+          },
+          {
+            "name": "Soul Flow – 12+ clases / $502.000",
+            "description": "Nuestro plan más completo. Diseñado para quienes hacen del movimiento una prioridad y buscan una transformación integral y constante."
+          }
+        ]
+      },
       "cta": {
         "text": "CONSULTA TU PLAN IDEAL",
         "action": "contacto"
@@ -167,35 +212,77 @@
         "url": "https://l.instagram.com/?u=https%3A%2F%2Fboxmagic.cl%2Fsport_page%2FSynergy&e=AT1vQQ9pYfggbBA6y-zJwADPsvw_kNJRGb1a2j5zVpNom-JSIlN0FkcaSL7Wbl5paLF1eCDvGTBqyDhB5jtDNBiC0wHpDxgetaUfCpJb-EcpM8MSL1X_CJjq1lpyRkpRTNAF_Wne2R6m"
       }
     },
-    "images": [
-      "/images/valore_y_planes.png",
-      "/images/valores_y_planes_2.png"
-    ]
+    "images": ["/images/valore_y_planes.png", "/images/valores_y_planes_2.png"]
   },
   "team": {
     "title": "NUESTRO EQUIPO",
-    "members": [
-      {
-        "name": "Florencia Aránguiz",
-        "role": "Nutricionista",
-        "image": "/images/florencia_aranguiz.JPG"
+    "heroImage": "/images/EQUIPO_SYNERGY_.jpg",
+    "sections": {
+      "therapies": {
+        "title": "Terapias complementarias",
+        "members": [
+          {
+            "name": "María Francisca Merino",
+            "role": "Terapias complementarias",
+            "image": "/images/MARIA_FRANCISCA_MERINO_TERAPEUTA.jpg",
+            "bio": "Soy psicopedagoga, licenciada en educación y terapeuta holística con más de 25 años de experiencia acompañando procesos de sanación física, emocional, energética y espiritual. Me he formado en disciplinas como Esencias Florales (Bach, Mediterráneo, Alba), Hipnosis y Regresiones, Biomagnetismo y Bioenergética con el Dr. Goiz, integrando cada herramienta con sensibilidad y propósito. Mi enfoque es personalizado, respetuoso y profundo, adaptando cada sesión a las necesidades únicas de quienes buscan equilibrio y bienestar integral."
+          },
+          {
+            "name": "Florencia Aranguiz",
+            "role": "Nutricionista",
+            "image": "/images/FLORNCIA_ARANGUIZ_NUTRICIONISTA.jpg",
+            "bio": "Soy nutricionista especializada en nutrición deportiva y bienestar integral, con un enfoque que va más allá de las dietas. Acompaño a las personas a construir una relación equilibrada con la comida, el movimiento y su propio cuerpo, ayudándolas a optimizar su energía, potenciar sus entrenamientos y disfrutar de una alimentación consciente y sostenible."
+          },
+          {
+            "name": "Florencia Cañas",
+            "role": "Asesorías de bienestar",
+            "image": "/images/FLORENCIA_CANAS_PSICOLOGA.jpg",
+            "bio": "Soy psicóloga con enfoque en terapia integral y bienestar. Acompaño a familias, especialmente en etapas clave como la primera infancia y la maternidad, ofreciendo contención emocional y herramientas prácticas. Me especializo en higiene del sueño, desde bebés de 6 meses hasta adultos, y en asesorías de bienestar que ayudan a entender, organizar y transitar de forma consciente los distintos ciclos de la vida. También acompaño procesos de duelo y muerte, creando espacios seguros para vivir el dolor con respeto, amor y profundidad."
+          }
+        ]
       },
-      {
-        "name": "Florencia Cañas",
-        "role": "Asesorías de bienestar",
-        "image": "/images/flo.JPG"
-      },
-      {
-        "name": "María Francisca Merino",
-        "role": "Terapias complementarias",
-        "image": "/images/maria.png"
-      },
-      {
-        "name": "Martita Schieb",
-        "role": "Masoterapia",
-        "image": "/placeholder.svg?height=400&width=300"
+      "instructors": {
+        "title": "Instructoras",
+        "members": [
+          {
+            "name": "Florencia Canas",
+            "role": "Instructora",
+            "image": "/images/FLORENCIA_CANAS_INSTRUCTORA.jpg",
+            "bio": "Soy instructora certificada en Pilates por Aerobic Life Argentina, formación que compartimos en Synergy para mantener un lenguaje transversal entre todas las profesoras. Psicóloga de profesión y bailarina de ballet con más de 21 años de experiencia, integro el movimiento consciente con conocimientos sólidos en anatomía, prevención de lesiones, procesos fisiológicos y biomecánica. Trabajo con diversos implementos, adaptando cada clase a las necesidades del cuerpo. Hace 7 años comencé mi camino en Pilates, y hoy en Synergy encuentro un espacio donde puedo aportar desde una mirada integral, uniendo cuerpo, mente y técnica con propósito."
+          },
+          {
+            "name": "Trinidad Bigas",
+            "role": "Instructora",
+            "image": "/images/TRINIDAD_BIGAS_INSTRUCTORA.jpg",
+            "bio": "Soy Relacionadora Pública e instructora certificada de Pilates Reformer por la Academia Aerobic Life Argentina, y una apasionada por crear experiencias que inspiren bienestar. Tras años en el mundo corporativo, sentí que necesitaba algo que me motivara de verdad, que rompiera la rutina y me permitiera conectar de forma auténtica con las personas. El deporte no siempre fue el centro de mi vida, pero al descubrir el Pilates Reformer todo cambió: me enamoré de moverme desde el autocuidado, sin presiones ni metas impuestas, disfrutando el momento. Para mí, Synergy es más que un estudio: es un refugio en medio de Vitacura, un espacio para desconectarse del día a día, reconectarse con uno mismo y encontrar calma, aunque sea por unos minutos. Aquí no solo se entrena el cuerpo, también se nutre el alma."
+          },
+          {
+            "name": "Luz María Venegas",
+            "role": "Instructora",
+            "image": "/images/LUZ_MARIA_VENEGAS_INSTRUCTORA.jpg",
+            "bio": "El Pilates en mi vida fue una consecuencia lógica de los muchos años que llevo trabajando con el movimiento. Estoy certificada como instructora por Aerobic Life Argentina, formación que compartimos todas las profesoras en Synergy para mantener un lenguaje común. Soy bailarina, y profesora de danza certificada en PBT con más de 20 años de experiencia y he trabajado con personas de distintas edades en diversas disciplinas del movimiento. Aunque mi profesión original es el diseño gráfico con especialización en orfebrería, hoy mi camino está profundamente ligado al bienestar integral. Me apasiona el Pilates, el ballet y también la conexión espiritual a través de la meditación y el trabajo con piedras curativas. Mi enfoque busca integrar cuerpo, mente y energía en cada clase."
+          },
+          {
+            "name": "Josefina Valenzuela",
+            "role": "Instructora",
+            "image": "/images/JOSEFINA_VALENZUELA_INSTRUCTORA.jpg",
+            "bio": "Mi amor por el pilates reformer nació hace dos años, cuando descubrí una disciplina completamente distinta: enfocada 100% en el cuerpo, el control y la conexión interna. Me enfrenté a muchos desafíos que transformaron mi forma de entender el ejercicio. Hoy soy instructora certificada, y mi foco está en acompañar a cada alumno a mejorar su técnica, conciencia corporal y conectar su respiración con el movimiento. En Synergy no solo nos dedicamos al pilates; también nos importa generar comunidad. Nos gusta conocer a cada persona que llega: escuchar sobre sus lesiones, sus historias, incluso sus familias. Queremos que se sientan acompañados, motivados y parte de un espacio real de conexión."
+          },
+          {
+            "name": "Sophie Beaujanot",
+            "role": "Instructora",
+            "image": "/images/SOPHIE_BEAUJANOT_INSTRUCTORA.jpg",
+            "bio": "Llegué al Pilates Reformer con dudas y descubrí una disciplina que transformó mi forma de entender el entrenamiento y el bienestar. Aunque siempre fui activa, el reformer me ofreció un trabajo completo, desafiante y consciente, además de un espacio como Synergy, donde se entrena, se comparte y se crea comunidad. Abogada de profesión, hoy Synergy me permite complementar mi carrera con el deporte, acompañando y motivando a otras alumnas, entregándoles la misma energía y bienestar que yo encontré aquí."
+          },
+          {
+            "name": "Florencia Aranguiz",
+            "role": "Instructora",
+            "image": "/images/FLORENCIA_ARANGUIZ_INSTRUCTORA.jpg",
+            "bio": "Soy nutricionista especializada en el área deportiva e instructora de Pilates certificada por Aerobic Life Argentina. Comencé en el mundo del deporte con el running, y tras una lesión en 2021 me enfoqué en el gimnasio y una buena alimentación para recuperarme, lo que despertó aún más mi interés por el movimiento y la nutrición como pilares del bienestar. Me especialicé en Nutrición Deportiva en España y, buscando nuevas disciplinas, descubrí en el Pilates (Reformer y Suelo) una práctica que integra fuerza, control y conciencia corporal. Hoy, mi propósito es que cada alumno experimente esa misma sensación de equilibrio y conexión a través de una guía profesional, cercana y realista."
+          }
+        ]
       }
-    ]
+    }
   },
   "testimonials": {
     "title": "FEEDBACK DE NUESTRA COMUNIDAD",
@@ -238,4 +325,4 @@
     },
     "copyright": "© 2024 Synergy Pilates Studio. Todos los derechos reservados."
   }
-} 
+}
