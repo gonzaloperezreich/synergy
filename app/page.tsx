@@ -19,6 +19,7 @@ export default function SynergyPilatesLanding() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("inicio");
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
+  const [showToast, setShowToast] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -71,12 +72,30 @@ export default function SynergyPilatesLanding() {
     };
   }, [selectedMember]);
 
+  useEffect(() => {
+    if (showToast) {
+      const timer = setTimeout(() => {
+        setShowToast(false);
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [showToast]);
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
     setIsMenuOpen(false);
+  };
+
+  const copyPhoneNumber = async () => {
+    try {
+      await navigator.clipboard.writeText(content.contact.phone);
+      setShowToast(true);
+    } catch (err) {
+      console.error("Failed to copy phone number:", err);
+    }
   };
 
   const ContractPlanButton = () => (
@@ -657,9 +676,12 @@ export default function SynergyPilatesLanding() {
 
                 <div className="flex items-center space-x-4">
                   <Phone className="text-[#909B99]" size={20} />
-                  <p className="text-[#475045] font-light">
+                  <button
+                    onClick={copyPhoneNumber}
+                    className="text-[#475045] font-light hover:text-[#7F6246] transition-colors cursor-pointer"
+                  >
                     {content.contact.phone}
-                  </p>
+                  </button>
                 </div>
               </div>
 
@@ -668,9 +690,9 @@ export default function SynergyPilatesLanding() {
                   {content.contact.schedule.title}
                 </h3>
                 <div className="space-y-2">
-                  <div className="flex justify-between">
+                  <div className="flex items-center space-x-4">
                     <span className="text-[#7F6246]">
-                      {content.contact.schedule.weekdays.days}
+                      {content.contact.schedule.weekdays.days}:
                     </span>
                     <span className="text-[#475045] font-light">
                       {content.contact.schedule.weekdays.hours}
@@ -724,6 +746,13 @@ export default function SynergyPilatesLanding() {
           </div>
         </div>
       </footer>
+
+      {/* Toast notification */}
+      {showToast && (
+        <div className="fixed bottom-4 right-4 bg-[#475045] text-white px-6 py-3 rounded-lg shadow-lg z-50 animate-in slide-in-from-bottom-2 duration-300">
+          <p className="text-sm font-light">Número copiado al portapapeles</p>
+        </div>
+      )}
     </div>
   );
 }
