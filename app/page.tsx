@@ -79,6 +79,19 @@ export default function SynergyPilatesLanding() {
     setIsMenuOpen(false);
   };
 
+  const ContractPlanButton = () => (
+    <div className="mt-8 text-center">
+      <a
+        href={content.pricing.unlimited.contractCta.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-[#7F6246] text-white hover:bg-[#475045] px-8 py-3 text-sm font-light tracking-wide transition-colors rounded-full"
+      >
+        {content.pricing.unlimited.contractCta.text}
+      </a>
+    </div>
+  );
+
   const navItems = content.navigation.items;
 
   return (
@@ -172,7 +185,7 @@ export default function SynergyPilatesLanding() {
               </h1>
               <Button
                 onClick={() => scrollToSection(content.hero.cta.action)}
-                className="bg-[#7F6246] text-white hover:bg-[#475045] px-8 py-3 text-sm font-light tracking-wide transition-colors"
+                className="bg-[#7F6246] text-white hover:bg-[#475045] px-8 py-3 text-sm font-light tracking-wide transition-colors mb-4"
               >
                 {content.hero.cta.text}
               </Button>
@@ -318,6 +331,9 @@ export default function SynergyPilatesLanding() {
                   </div>
                 ))}
               </div>
+              <div className="mt-16 text-center">
+                <ContractPlanButton />
+              </div>
             </div>
           </div>
 
@@ -367,13 +383,16 @@ export default function SynergyPilatesLanding() {
                   </div>
                 ))}
               </div>
+              <div className="mt-16 text-center">
+                <ContractPlanButton />
+              </div>
             </div>
 
             {/* Imagen */}
             <div className="order-1 lg:order-2 relative h-[600px] lg:h-[700px]">
               <Image
                 src="/images/valores_y_planes_2.png"
-                alt="Planes de Yoga y Barre Synergy"
+                alt="Planes de Yoga"
                 fill
                 className="object-cover rounded-lg"
               />
@@ -438,25 +457,7 @@ export default function SynergyPilatesLanding() {
               </div>
             </div>
 
-            <div className="mt-12 space-y-4">
-              <Button
-                onClick={() => scrollToSection("contacto")}
-                className="bg-[#7F6246] text-white hover:bg-[#475045] px-8 py-3 text-sm font-light tracking-wide transition-colors"
-              >
-                CONSULTA TU PLAN IDEAL
-              </Button>
-
-              <div className="flex justify-center">
-                <Link
-                  href="https://l.instagram.com/?u=https%3A%2F%2Fboxmagic.cl%2Fsport_page%2FSynergy&e=AT1vQQ9pYfggbBA6y-zJwADPsvw_kNJRGb1a2j5zVpNom-JSIlN0FkcaSL7Wbl5paLF1eCDvGTBqyDhB5jtDNBiC0wHpDxgetaUfCpJb-EcpM8MSL1X_CJjq1lpyRkpRTNAF_Wne2R6m"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-[#B79F8E] text-white hover:bg-[#7F6246] px-8 py-3 text-sm font-light tracking-wide transition-colors rounded-lg"
-                >
-                  CONTRATA TU PLAN
-                </Link>
-              </div>
-            </div>
+            <ContractPlanButton />
           </div>
         </div>
       </section>
@@ -578,9 +579,10 @@ export default function SynergyPilatesLanding() {
                   </button>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-6">
-                  {/* Imagen con aspect ratio vertical */}
-                  <div className="md:col-span-1">
+                {/* Blog post-like layout with floating image */}
+                <div className="relative">
+                  {/* Floating image at top-left */}
+                  <div className="float-left w-1/2 pr-4 pb-4">
                     <div className="relative aspect-[3/4] w-full">
                       <Image
                         src={selectedMember.image}
@@ -591,12 +593,13 @@ export default function SynergyPilatesLanding() {
                     </div>
                   </div>
 
-                  {/* Biografía */}
-                  <div className="md:col-span-2">
-                    <p className="text-[#7F6246] font-light leading-relaxed">
-                      {selectedMember.bio}
-                    </p>
+                  {/* Biography text that wraps around the image */}
+                  <div className="text-[#7F6246] font-light leading-relaxed">
+                    <p>{selectedMember.bio}</p>
                   </div>
+
+                  {/* Clear float to ensure proper layout */}
+                  <div className="clear-both"></div>
                 </div>
               </div>
             </div>
@@ -625,6 +628,7 @@ export default function SynergyPilatesLanding() {
               </Card>
             ))}
           </div>
+          <ContractPlanButton />
         </div>
       </section>
 

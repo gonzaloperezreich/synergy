@@ -11,7 +11,7 @@
     ],
     "cta": {
       "text": "HAZ TU CLASE DE PRUEBA",
-      "url": "https://l.instagram.com/?u=https%3A%2F%2Fboxmagic.cl%2Fsport_page%2FSynergy&e=AT0AbOrqltHJS6kTmH5hVVyhH1cZ0UeyHyStb5-H58c6jKvv6WDOED8zwzpz751DE8yBya4gaqn3P11dRaFc8cj6LNzBfTCOyOlJDlygqP6rJ1FNYDvsYGZx7qpFQhiZeWZuii_jYPUs"
+      "url": "https://wa.me/56977363399?text=Hola%21%20C%C3%B3mo%20puedo%20acceder%20a%20mi%20clase%20de%20prueba%3F"
     }
   },
   "hero": {
@@ -64,11 +64,6 @@
         "name": "Vinyasa Yoga",
         "description": "Conecta cuerpo, mente y respiración con nuestras clases de Vinyasa Yoga. Una práctica fluida y consciente donde cada movimiento sigue el ritmo de tu respiración. Ideal para todos los niveles, especialmente si buscas liberar tensiones, fortalecer tu cuerpo y encontrar calma desde el movimiento.",
         "image": "/images/YOGA.jpg"
-      },
-      {
-        "name": "Barre",
-        "description": "Tonifica, alarga y fortalece tu cuerpo con nuestras clases de Barre. Una fusión de ballet, Pilates y entrenamiento funcional que trabaja fuerza, equilibrio y postura con movimientos precisos y controlados. Ideal para todos los niveles, especialmente si buscas un entrenamiento desafiante, elegante y consciente.",
-        "image": "/images/BARRE.jpg"
       }
     ]
   },
@@ -152,23 +147,12 @@
             "Plan Soul - 12 clases / $351.000"
           ]
         }
-      },
-      {
-        "title": "Barre",
-        "monthly": {
-          "title": "MENSUAL",
-          "plans": ["Plan Body - 4 clases / $45.000"]
-        },
-        "quarterly": {
-          "title": "TRIMESTRAL",
-          "plans": ["Plan Body - 4 clases / $122.000"]
-        }
       }
     ],
     "unlimited": {
-      "title": "MEMBRESIA",
+      "title": "MEMBRESÍA",
       "subtitle": "SYNERGY MEMBER",
-      "description": "Un pase libre para explorar y disfrutar todas nuestras disciplinas — Pilates Reformer, Power Pilates, FitBallet, Vinyasa Yoga y Barre — sin ataduras ni límites. Diseñado para que vivas el bienestar a tu ritmo, eligiendo cada día lo que tu cuerpo y mente necesitan.",
+      "description": "Un pase libre para explorar y disfrutar todas nuestras disciplinas — Pilates Reformer, Power Pilates, FitBallet y Vinyasa Yoga — sin ataduras ni límites. Diseñado para que vivas el bienestar a tu ritmo, eligiendo cada día lo que tu cuerpo y mente necesitan.",
       "monthly": {
         "title": "SYNERGY MEMBER MENSUAL",
         "plans": [
@@ -209,7 +193,7 @@
       },
       "contractCta": {
         "text": "CONTRATA TU PLAN",
-        "url": "https://l.instagram.com/?u=https%3A%2F%2Fboxmagic.cl%2Fsport_page%2FSynergy&e=AT1vQQ9pYfggbBA6y-zJwADPsvw_kNJRGb1a2j5zVpNom-JSIlN0FkcaSL7Wbl5paLF1eCDvGTBqyDhB5jtDNBiC0wHpDxgetaUfCpJb-EcpM8MSL1X_CJjq1lpyRkpRTNAF_Wne2R6m"
+        "url": "https://wa.me/56977363399?text=Hola%21%20Me%20gustar%C3%ADa%20contratar%20un%20plan."
       }
     },
     "images": ["/images/valore_y_planes.png", "/images/valores_y_planes_2.png"]
