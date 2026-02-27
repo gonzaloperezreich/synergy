@@ -101,12 +101,12 @@ export default function SynergyPilatesLanding() {
   const ContractPlanButton = () => (
     <div className="mt-8 text-center">
       <a
-        href={content.pricing.unlimited.contractCta.url}
+        href={content.pricing.contractCta.url}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-[#7F6246] text-white hover:bg-[#475045] px-8 py-3 text-sm font-light tracking-wide transition-colors rounded-full"
       >
-        {content.pricing.unlimited.contractCta.text}
+        {content.pricing.contractCta.text}
       </a>
     </div>
   );
@@ -289,14 +289,17 @@ export default function SynergyPilatesLanding() {
       {/* Pricing Section */}
       <section id="planes" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-light text-[#475045] text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-light text-[#475045] text-center mb-4">
             {content.pricing.title}
           </h2>
+          <p className="text-[#909B99] font-light italic mb-16 text-center max-w-2xl mx-auto">
+            {content.pricing.subtitle}
+          </p>
 
-          {/* Primera vista - Imagen izquierda, contenido derecha */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+          {/* Pricing layout: image left, plans right */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Imagen */}
-            <div className="relative h-[600px] lg:h-[700px]">
+            <div className="relative h-[500px] lg:h-[600px]">
               <Image
                 src="/images/valores_y_planes.png"
                 alt="Valores y Planes Synergy"
@@ -305,178 +308,41 @@ export default function SynergyPilatesLanding() {
               />
             </div>
 
-            {/* Contenido de precios */}
-            <div className="space-y-8">
-              <div className="text-center lg:text-left">
-                <p className="text-[#909B99] font-light italic mb-8">
-                  {content.pricing.subtitle}
-                </p>
-              </div>
-
-              {/* Primeras dos categorías dinámicas */}
-              <div className="grid md:grid-cols-2 gap-8">
-                {content.pricing.sections.slice(0, 2).map((section, index) => (
-                  <div key={index}>
-                    <h4 className="text-lg font-light text-[#B79F8E] mb-4 uppercase tracking-wide">
-                      {section.title}
-                      {section.status && (
-                        <span className="text-xs ml-2">({section.status})</span>
-                      )}
-                    </h4>
-                    <div className="space-y-3">
-                      <div className="border-b border-[#D6CBBF] pb-2">
-                        <p className="font-medium text-[#475045]">
-                          {section.monthly.title}
-                        </p>
-                        <div className="text-sm text-[#909B99] space-y-1">
-                          {section.monthly.plans.map((plan, planIndex) => (
-                            <p key={planIndex}>{plan}</p>
-                          ))}
-                        </div>
-                      </div>
-                      {section.quarterly && (
-                        <div>
-                          <p className="font-medium text-[#475045]">
-                            {section.quarterly.title}
-                          </p>
-                          <div className="text-sm text-[#909B99] space-y-1">
-                            {section.quarterly.plans.map((plan, planIndex) => (
-                              <p key={planIndex}>{plan}</p>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-16 text-center">
-                <ContractPlanButton />
-              </div>
-            </div>
-          </div>
-
-          {/* Segunda vista - Contenido izquierda, imagen derecha */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Contenido de precios */}
-            <div className="order-2 lg:order-1 space-y-8">
-              <div className="grid md:grid-cols-2 gap-8">
-                {content.pricing.sections.slice(2, 5).map((section, index) => (
-                  <div key={index}>
-                    <h4 className="text-lg font-light text-[#B79F8E] mb-4 uppercase tracking-wide">
-                      {section.title}
-                      {section.status && (
-                        <span className="text-xs ml-2">({section.status})</span>
-                      )}
-                    </h4>
-                    <div className="space-y-3">
-                      <div
-                        className={
-                          section.quarterly
-                            ? "border-b border-[#D6CBBF] pb-2"
-                            : ""
-                        }
-                      >
-                        <p className="font-medium text-[#475045]">
-                          {section.monthly.title}
-                        </p>
-                        <div className="text-sm text-[#909B99] space-y-1">
-                          {section.monthly.plans.map((plan, planIndex) => (
-                            <p key={planIndex}>{plan}</p>
-                          ))}
-                        </div>
-                      </div>
-                      {section.quarterly && (
-                        <div>
-                          <p className="font-medium text-[#475045]">
-                            {section.quarterly.title}
-                          </p>
-                          <div className="text-sm text-[#909B99] space-y-1">
-                            {section.quarterly.plans.map((plan, planIndex) => (
-                              <p key={planIndex}>{plan}</p>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-16 text-center">
-                <ContractPlanButton />
-              </div>
-            </div>
-
-            {/* Imagen */}
-            <div className="order-1 lg:order-2 relative h-[600px] lg:h-[700px]">
-              <Image
-                src="/images/valores_y_planes_2.png"
-                alt="Planes de Yoga"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-          </div>
-
-          {/* Accesos Ilimitados */}
-          <div className="text-center mt-20 max-w-4xl mx-auto">
-            <h3 className="text-3xl md:text-4xl font-light text-[#475045] mb-4 tracking-wide">
-              {content.pricing.unlimited.title}
-            </h3>
-            <h4 className="text-lg font-light text-[#B79F8E] mb-8 tracking-widest uppercase">
-              {content.pricing.unlimited.subtitle}
-            </h4>
-            <p className="text-lg font-light text-[#7F6246] leading-relaxed mb-12 max-w-3xl mx-auto">
-              {content.pricing.unlimited.description}
-            </p>
-
-            {/* Planes Mensuales */}
-            <div className="mb-16">
-              <h5 className="text-xl font-medium text-[#475045] mb-8">
-                {content.pricing.unlimited.monthly.title}
-              </h5>
-              <div className="space-y-8">
-                {content.pricing.unlimited.monthly.plans.map((plan, index) => (
-                  <div
-                    key={index}
-                    className="border-b border-[#D6CBBF] pb-8 last:border-b-0"
-                  >
-                    <h6 className="text-lg font-medium text-[#475045] mb-3">
-                      {plan.name}
-                    </h6>
-                    <p className="text-[#909B99] font-light leading-relaxed max-w-2xl mx-auto">
-                      {plan.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Planes Trimestrales */}
-            <div className="space-y-8">
-              <h5 className="text-xl font-medium text-[#475045] mb-8">
-                {content.pricing.unlimited.quarterly.title}
-              </h5>
-              <div className="space-y-8">
-                {content.pricing.unlimited.quarterly.plans.map(
-                  (plan, index) => (
-                    <div
-                      key={index}
-                      className="border-b border-[#D6CBBF] pb-8 last:border-b-0"
-                    >
-                      <h6 className="text-lg font-medium text-[#475045] mb-3">
-                        {plan.name}
-                      </h6>
-                      <p className="text-[#909B99] font-light leading-relaxed max-w-2xl mx-auto">
-                        {plan.description}
+            {/* Pricing sections */}
+            <div className="space-y-10">
+              {content.pricing.sections.map((section, index) => (
+                <div key={index}>
+                  <h4 className="text-lg font-light text-[#B79F8E] mb-4 uppercase tracking-wide">
+                    {section.title}
+                  </h4>
+                  <div className="space-y-3">
+                    <div className="border-b border-[#D6CBBF] pb-2">
+                      <p className="font-medium text-[#475045]">
+                        {section.monthly.title}
                       </p>
+                      <div className="text-sm text-[#909B99] space-y-1">
+                        {section.monthly.plans.map((plan, planIndex) => (
+                          <p key={planIndex}>{plan}</p>
+                        ))}
+                      </div>
                     </div>
-                  )
-                )}
-              </div>
+                    {section.quarterly && (
+                      <div>
+                        <p className="font-medium text-[#475045]">
+                          {section.quarterly.title}
+                        </p>
+                        <div className="text-sm text-[#909B99] space-y-1">
+                          {section.quarterly.plans.map((plan, planIndex) => (
+                            <p key={planIndex}>{plan}</p>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+              <ContractPlanButton />
             </div>
-
-            <ContractPlanButton />
           </div>
         </div>
       </section>
@@ -662,17 +528,20 @@ export default function SynergyPilatesLanding() {
               </h2>
 
               <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <MapPin className="text-[#909B99] mt-1" size={20} />
-                  <div>
-                    <p className="text-[#475045] font-light">
-                      {content.contact.address.street}
-                    </p>
-                    <p className="text-[#7F6246] font-light">
-                      {content.contact.address.city}
-                    </p>
+                {/* Multiple addresses */}
+                {content.contact.addresses.map((addr, index) => (
+                  <div key={index} className="flex items-start space-x-4">
+                    <MapPin className="text-[#909B99] mt-1 flex-shrink-0" size={20} />
+                    <div>
+                      <p className="text-[#475045] font-light">
+                        {addr.street}
+                      </p>
+                      <p className="text-[#7F6246] font-light">
+                        {addr.city}
+                      </p>
+                    </div>
                   </div>
-                </div>
+                ))}
 
                 <div className="flex items-center space-x-4">
                   <Phone className="text-[#909B99]" size={20} />
@@ -712,7 +581,7 @@ export default function SynergyPilatesLanding() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title={`Ubicación de Synergy - ${content.contact.address.street}, ${content.contact.address.city}`}
+                title={`Ubicación de Synergy - ${content.contact.addresses[0].street}, ${content.contact.addresses[0].city}`}
                 className="rounded-lg shadow-lg"
               />
             </div>

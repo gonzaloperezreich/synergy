@@ -46,24 +46,19 @@
     "title": "NUESTROS SERVICIOS",
     "items": [
       {
-        "name": "Pilates Reformer",
-        "description": "Fortalece, alinea y estira tu cuerpo con nuestras clases de Pilates Reformer. Trabajamos fuerza, control y flexibilidad con movimientos precisos y conscientes. Ideal para todos los niveles, desde quienes recién comienzan hasta quienes buscan perfeccionar su práctica.",
+        "name": "Pilates Reformer - CLASIC",
+        "description": "Vive la experiencia del Pilates en su forma más auténtica. En nuestras clases Classic, trabajarás con ejercicios fundamentales del método, enfocados en alineación, control y conexión cuerpo-mente. Ideal para quienes buscan fortalecer desde la base, mejorar la postura y encontrar equilibrio interior.",
         "image": "/images/PILATES_REFORMER.jpg"
       },
       {
-        "name": "Power Pilates",
-        "description": "Activa tu cuerpo y tu energía con nuestras clases de Power Pilates. Una versión más dinámica del Pilates suelo, enfocada en fuerza, resistencia y control. Ideal para todos los niveles, especialmente si buscas un entrenamiento desafiante y consciente. Proximamente en octubre",
-        "image": "/images/POWERPILATES.jpg"
+        "name": "Pilates Reformer - SCULP",
+        "description": "La combinación perfecta entre precisión y energía. Nuestras clases Sculpt integran el trabajo clásico del Reformer con elementos de tonificación muscular intensa. Prepárate para desafiar tus límites, esculpir tu cuerpo y potenciar tu fuerza funcional.",
+        "image": "/images/PILATES_REFORMER.jpg"
       },
       {
-        "name": "FitBallet",
-        "description": "Descubre FitBallet, una disciplina creada en Synergy que fusiona arte y fuerza. Combinamos la técnica del ballet clásico, ejercicios de entrenamiento funcional y el método PBT (Progressing Ballet Technique) para trabajar postura, control y musculatura profunda. Ideal para quienes buscan elegancia, potencia y conexión corporal en una sola clase.",
-        "image": "/images/FIT_BALLET.jpeg"
-      },
-      {
-        "name": "Vinyasa Yoga",
-        "description": "Conecta cuerpo, mente y respiración con nuestras clases de Vinyasa Yoga. Una práctica fluida y consciente donde cada movimiento sigue el ritmo de tu respiración. Ideal para todos los niveles, especialmente si buscas liberar tensiones, fortalecer tu cuerpo y encontrar calma desde el movimiento.",
-        "image": "/images/YOGA.jpg"
+        "name": "Pilates Reformer - FLOW",
+        "description": "Fluidez, control y elegancia en movimiento. En las clases Flow, las transiciones entre ejercicios crean una experiencia dinámica y envolvente, donde cada movimiento conecta con el siguiente de forma armónica. Perfecto para quienes buscan trabajar cuerpo y mente con ritmo y gracia.",
+        "image": "/images/PILATES_REFORMER.jpg"
       }
     ]
   },
@@ -78,7 +73,7 @@
           "plans": [
             "Plan Body - 4 clases / $55.000",
             "Plan Mind - 8 clases / $96.000",
-            "Plan Soul - 12 o mas clases / $155.000"
+            "Plan Soul - 12 o más clases / $155.000"
           ]
         },
         "quarterly": {
@@ -86,117 +81,35 @@
           "plans": [
             "Plan Body - 4 clases / $157.000",
             "Plan Mind - 8 clases / $275.000",
-            "Plan Soul - 12 o mas clases / $445.000"
+            "Plan Soul - 12 o más clases / $445.000"
           ]
         }
       },
       {
-        "title": "Power Pilates",
+        "title": "Reformer Member",
         "monthly": {
           "title": "MENSUAL",
           "plans": [
-            "Plan Body - 4 clases / $45.000",
-            "Plan Mind - 8 clases / $80.000",
-            "Plan Soul - 12 clases / $130.000"
+            "Plan Body - 4 clases / $61.000",
+            "Plan Mind - 8 clases / $107.000",
+            "Plan Soul - Clases ilimitadas / $170.000"
           ]
         },
         "quarterly": {
           "title": "TRIMESTRAL",
           "plans": [
-            "Plan Body - 4 clases / $122.000",
-            "Plan Mind - 8 clases / $216.000",
-            "Plan Soul - 12 clases / $351.000"
-          ]
-        }
-      },
-      {
-        "title": "FitBallet",
-        "status": "proximamente",
-        "monthly": {
-          "title": "MENSUAL",
-          "plans": [
-            "Plan Body - 4 clases / $48.000",
-            "Plan Mind - 8 clases / $72.000",
-            "Plan Soul - 12 o mas clases / $105.000"
-          ]
-        },
-        "quarterly": {
-          "title": "TRIMESTRAL",
-          "plans": [
-            "Plan Body - 4 clases / $130.000",
-            "Plan Mind - 8 clases / $195.000",
-            "Plan Soul - 12 o mas clases / $284.000"
-          ]
-        }
-      },
-      {
-        "title": "Vinyasa Yoga",
-        "monthly": {
-          "title": "MENSUAL",
-          "plans": [
-            "Plan Body - 4 clases / $45.000",
-            "Plan Mind - 8 clases / $80.000",
-            "Plan Soul - 12 clases / $130.000"
-          ]
-        },
-        "quarterly": {
-          "title": "TRIMESTRAL",
-          "plans": [
-            "Plan Body - 4 clases / $122.000",
-            "Plan Mind - 8 clases / $216.000",
-            "Plan Soul - 12 clases / $351.000"
+            "Plan Body - 4 clases / $178.000",
+            "Plan Mind - 8 clases / $288.000",
+            "Plan Soul - Clases ilimitadas / $459.000"
           ]
         }
       }
     ],
-    "unlimited": {
-      "title": "MEMBRESÍA",
-      "subtitle": "SYNERGY MEMBER",
-      "description": "Un pase libre para explorar y disfrutar todas nuestras disciplinas — Pilates Reformer, Power Pilates, FitBallet y Vinyasa Yoga — sin ataduras ni límites. Diseñado para que vivas el bienestar a tu ritmo, eligiendo cada día lo que tu cuerpo y mente necesitan.",
-      "monthly": {
-        "title": "SYNERGY MEMBER MENSUAL",
-        "plans": [
-          {
-            "name": "Body Plus – 4 clases / $66.000",
-            "description": "Ideal para quienes quieren comenzar a conectar cuerpo y mente a su ritmo. Una clase por semana para incorporar el bienestar en tu rutina."
-          },
-          {
-            "name": "Mind Plus – 8 clases / $116.000",
-            "description": "La opción perfecta para profundizar tu práctica. Dos clases por semana que te ayudarán a mantener el equilibrio, la energía y el compromiso contigo misma."
-          },
-          {
-            "name": "Soul Plus – 12+ clases / $186.000",
-            "description": "Nuestro plan más completo. Diseñado para quienes hacen del movimiento una prioridad y buscan una transformación integral y constante."
-          }
-        ]
-      },
-      "quarterly": {
-        "title": "SYNERGY MEMBER TRIMESTRAL",
-        "plans": [
-          {
-            "name": "Body Flow – 4 clases / $178.000",
-            "description": "Ideal para quienes quieren comenzar a conectar cuerpo y mente a su ritmo. Una clase por semana para incorporar el bienestar en tu rutina."
-          },
-          {
-            "name": "Mind Flow – 8 clases / $313.000",
-            "description": "La opción perfecta para profundizar tu práctica. Dos clases por semana que te ayudarán a mantener el equilibrio, la energía y el compromiso contigo misma."
-          },
-          {
-            "name": "Soul Flow – 12+ clases / $502.000",
-            "description": "Nuestro plan más completo. Diseñado para quienes hacen del movimiento una prioridad y buscan una transformación integral y constante."
-          }
-        ]
-      },
-      "cta": {
-        "text": "CONSULTA TU PLAN IDEAL",
-        "action": "contacto"
-      },
-      "contractCta": {
-        "text": "CONTRATA TU PLAN",
-        "url": "https://wa.me/56977363399?text=Hola%21%20Me%20gustar%C3%ADa%20contratar%20un%20plan."
-      }
+    "contractCta": {
+      "text": "CONTRATA TU PLAN",
+      "url": "https://wa.me/56977363399?text=Hola%21%20Me%20gustar%C3%ADa%20contratar%20un%20plan."
     },
-    "images": ["/images/valore_y_planes.png", "/images/valores_y_planes_2.png"]
+    "images": ["/images/valores_y_planes.png", "/images/valores_y_planes_2.png"]
   },
   "team": {
     "title": "NUESTRO EQUIPO",
@@ -253,12 +166,6 @@
             "bio": "Mi amor por el pilates reformer nació hace dos años, cuando descubrí una disciplina completamente distinta: enfocada 100% en el cuerpo, el control y la conexión interna. Me enfrenté a muchos desafíos que transformaron mi forma de entender el ejercicio. Hoy soy instructora certificada, y mi foco está en acompañar a cada alumno a mejorar su técnica, conciencia corporal y conectar su respiración con el movimiento. En Synergy no solo nos dedicamos al pilates; también nos importa generar comunidad. Nos gusta conocer a cada persona que llega: escuchar sobre sus lesiones, sus historias, incluso sus familias. Queremos que se sientan acompañados, motivados y parte de un espacio real de conexión."
           },
           {
-            "name": "Sophie Beaujanot",
-            "role": "Instructora",
-            "image": "/images/SOPHIE_BEAUJANOT_INSTRUCTORA.jpg",
-            "bio": "Llegué al Pilates Reformer con dudas y descubrí una disciplina que transformó mi forma de entender el entrenamiento y el bienestar. Aunque siempre fui activa, el reformer me ofreció un trabajo completo, desafiante y consciente, además de un espacio como Synergy, donde se entrena, se comparte y se crea comunidad. Abogada de profesión, hoy Synergy me permite complementar mi carrera con el deporte, acompañando y motivando a otras alumnas, entregándoles la misma energía y bienestar que yo encontré aquí."
-          },
-          {
             "name": "Florencia Aranguiz",
             "role": "Instructora",
             "image": "/images/FLORENCIA_ARANGUIZ_INSTRUCTORA.jpg",
@@ -287,10 +194,20 @@
   },
   "contact": {
     "title": "CÓMO ENCONTRARNOS",
-    "address": {
-      "street": "Agustín del castillo 2960",
-      "city": "Vitacura, Santiago"
-    },
+    "addresses": [
+      {
+        "street": "Agustín del Castillo 2960",
+        "city": "Vitacura, Santiago"
+      },
+      {
+        "street": "Wisconsin 1010, Oficina 02",
+        "city": "Santiago"
+      },
+      {
+        "street": "Eduardo Marquina 3937, Oficina 503",
+        "city": "Santiago"
+      }
+    ],
     "phone": "+56 9 7736 3399",
     "schedule": {
       "title": "HORARIO",
@@ -307,6 +224,6 @@
     "social": {
       "instagram": "https://www.instagram.com/synergy.cl/"
     },
-    "copyright": "© 2024 Synergy Pilates Studio. Todos los derechos reservados."
+    "copyright": "© 2026 Synergy Pilates Studio. Todos los derechos reservados."
   }
 }
