@@ -2,12 +2,30 @@
   "navigation": {
     "brand": "SYNERGY",
     "items": [
-      { "id": "inicio", "label": "Inicio" },
-      { "id": "nosotros", "label": "Nosotros" },
-      { "id": "servicios", "label": "Servicios" },
-      { "id": "planes", "label": "Planes" },
-      { "id": "equipo", "label": "Equipo" },
-      { "id": "contacto", "label": "Contacto" }
+      {
+        "id": "inicio",
+        "label": "Inicio"
+      },
+      {
+        "id": "nosotros",
+        "label": "Nosotros"
+      },
+      {
+        "id": "servicios",
+        "label": "Servicios"
+      },
+      {
+        "id": "planes",
+        "label": "Planes"
+      },
+      {
+        "id": "equipo",
+        "label": "Equipo"
+      },
+      {
+        "id": "contacto",
+        "label": "Contacto"
+      }
     ],
     "cta": {
       "text": "HAZ TU CLASE DE PRUEBA",
@@ -53,12 +71,12 @@
       {
         "name": "Pilates Reformer - SCULP",
         "description": "La combinación perfecta entre precisión y energía. Nuestras clases Sculpt integran el trabajo clásico del Reformer con elementos de tonificación muscular intensa. Prepárate para desafiar tus límites, esculpir tu cuerpo y potenciar tu fuerza funcional.",
-        "image": "/images/PILATES_REFORMER.jpg"
+        "image": "/images/FIT_BALLET.jpeg"
       },
       {
         "name": "Pilates Reformer - FLOW",
         "description": "Fluidez, control y elegancia en movimiento. En las clases Flow, las transiciones entre ejercicios crean una experiencia dinámica y envolvente, donde cada movimiento conecta con el siguiente de forma armónica. Perfecto para quienes buscan trabajar cuerpo y mente con ritmo y gracia.",
-        "image": "/images/PILATES_REFORMER.jpg"
+        "image": "/images/YOGA.jpg"
       }
     ]
   },
@@ -66,25 +84,6 @@
     "title": "VALORES",
     "subtitle": "Nuestra prioridad es tener un plan que se ajuste a tu estilo de vida.",
     "sections": [
-      {
-        "title": "Pilates Reformer",
-        "monthly": {
-          "title": "MENSUAL",
-          "plans": [
-            "Plan Body - 4 clases / $55.000",
-            "Plan Mind - 8 clases / $96.000",
-            "Plan Soul - 12 o más clases / $155.000"
-          ]
-        },
-        "quarterly": {
-          "title": "TRIMESTRAL",
-          "plans": [
-            "Plan Body - 4 clases / $157.000",
-            "Plan Mind - 8 clases / $275.000",
-            "Plan Soul - 12 o más clases / $445.000"
-          ]
-        }
-      },
       {
         "title": "Reformer Member",
         "monthly": {
@@ -109,7 +108,10 @@
       "text": "CONTRATA TU PLAN",
       "url": "https://wa.me/56977363399?text=Hola%21%20Me%20gustar%C3%ADa%20contratar%20un%20plan."
     },
-    "images": ["/images/valores_y_planes.png", "/images/valores_y_planes_2.png"]
+    "images": [
+      "/images/valores_y_planes.png",
+      "/images/valores_y_planes_2.png"
+    ]
   },
   "team": {
     "title": "NUESTRO EQUIPO",

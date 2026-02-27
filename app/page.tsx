@@ -374,12 +374,13 @@ export default function SynergyPilatesLanding() {
               {content.team.sections.therapies.members.map(
                 (member: TeamMember, index: number) => (
                   <div key={index} className="text-center">
-                    <div className="relative aspect-[4/5] max-h-[350px] mb-4 mx-auto">
+                    <div className="w-[250px] h-[312px] mb-4 mx-auto overflow-hidden rounded-lg">
                       <Image
                         src={member.image}
                         alt={member.name}
-                        fill
-                        className="object-cover rounded-lg"
+                        width={250}
+                        height={312}
+                        className="object-cover w-full h-full"
                       />
                     </div>
                     <h4 className="text-lg font-light text-[#475045] mb-2">
@@ -409,12 +410,13 @@ export default function SynergyPilatesLanding() {
               {content.team.sections.instructors.members.map(
                 (member: TeamMember, index: number) => (
                   <div key={index} className="text-center">
-                    <div className="relative aspect-[4/5] max-h-[350px] mb-4 mx-auto">
+                    <div className="w-[250px] h-[312px] mb-4 mx-auto overflow-hidden rounded-lg">
                       <Image
                         src={member.image}
                         alt={member.name}
-                        fill
-                        className="object-cover rounded-lg"
+                        width={250}
+                        height={312}
+                        className="object-cover w-full h-full"
                       />
                     </div>
                     <h4 className="text-lg font-light text-[#475045] mb-2">
