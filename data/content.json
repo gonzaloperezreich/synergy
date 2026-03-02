@@ -46,7 +46,7 @@
       "text": "DESCUBRE MÁS",
       "action": "servicios"
     },
-    "image": "/images/hero.JPG"
+    "image": "/images/foto_socias.jpeg"
   },
   "about": {
     "title": "SYNERGY",
@@ -61,17 +61,17 @@
     }
   },
   "services": {
-    "title": "NUESTROS SERVICIOS",
+    "title": "En Synergy tendrás clases con distintas metodologías",
     "items": [
       {
-        "name": "Pilates Reformer - CLASIC",
+        "name": "Pilates Reformer - CLASSIC",
         "description": "Vive la experiencia del Pilates en su forma más auténtica. En nuestras clases Classic, trabajarás con ejercicios fundamentales del método, enfocados en alineación, control y conexión cuerpo-mente. Ideal para quienes buscan fortalecer desde la base, mejorar la postura y encontrar equilibrio interior.",
         "image": "/images/PILATES_REFORMER.jpg"
       },
       {
-        "name": "Pilates Reformer - SCULP",
+        "name": "Pilates Reformer - SCULPT",
         "description": "La combinación perfecta entre precisión y energía. Nuestras clases Sculpt integran el trabajo clásico del Reformer con elementos de tonificación muscular intensa. Prepárate para desafiar tus límites, esculpir tu cuerpo y potenciar tu fuerza funcional.",
-        "image": "/images/FIT_BALLET.jpeg"
+        "image": "/images/foto_sculpt.jpeg"
       },
       {
         "name": "Pilates Reformer - FLOW",
@@ -198,10 +198,6 @@
     "title": "CÓMO ENCONTRARNOS",
     "addresses": [
       {
-        "street": "Agustín del Castillo 2960",
-        "city": "Vitacura, Santiago"
-      },
-      {
         "street": "Wisconsin 1010, Oficina 02",
         "city": "Santiago"
       },
@@ -218,7 +214,7 @@
         "hours": "7:00 - 21:00"
       }
     },
-    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.8958234567843!2d-70.55445568481845!3d-33.39234808078619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a3d4c4d4d1%3A0x4d4d4d4d4d4d4d4d!2sAgust%C3%ADn%20del%20Castillo%202960%2C%20Vitacura%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1635789012345!5m2!1ses!2scl&q=Agust%C3%ADn+del+Castillo+2960,+Vitacura,+Santiago"
+    "mapUrl": "https://www.google.com/maps?q=Wisconsin+1010,+Santiago,+Chile&output=embed"
   },
   "footer": {
     "brand": "SYNERGY",
